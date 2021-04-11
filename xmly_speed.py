@@ -6,6 +6,7 @@ from datetime import datetime
 from dateutil import tz
 
 
+
 def loadFileContent(downloadUrl) :
     return requests.get(downloadUrl).text
 
